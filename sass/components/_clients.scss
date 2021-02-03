@@ -28,8 +28,9 @@
 }
 
 .client-item__link:hover,
-.client-item__linkk:focus {
+.client-item__link:focus {
   border: 1px solid $accent-color;
   color: $accent-color;
   fill: currentColor;
+  outline: none;
 }

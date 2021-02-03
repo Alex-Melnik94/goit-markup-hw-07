@@ -407,10 +407,11 @@ img {
 }
 
 .client-item__link:hover,
-.client-item__linkk:focus {
+.client-item__link:focus {
   border: 1px solid #2196f3;
   color: #2196f3;
   fill: currentColor;
+  outline: none;
 }
 
 .features-list {
@@ -708,7 +709,10 @@ img {
   color: #2196f3;
 }
 
-.overlay {
+.hero-section {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
@@ -716,12 +720,6 @@ img {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/Img.jpg");
   background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Img.jpg");
   background-color: #c4c4c4;
-}
-
-.hero-section {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  text-align: center;
 }
 
 .hero-container {
@@ -1103,6 +1101,9 @@ img {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 
 .portfolio-card:nth-child(3n) {
@@ -1172,10 +1173,7 @@ img {
 }
 
 .card-descr {
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-  padding: 20px 24px 20px 24px;
+  padding: 20px 24px;
 }
 
 .card-descr__title {

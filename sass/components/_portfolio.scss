@@ -53,6 +53,10 @@
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+
+  border-right: 1px solid $item-border-color;
+  border-bottom: 1px solid $item-border-color;
+  border-left: 1px solid $item-border-color;
 }
 
 .portfolio-card:nth-child(3n) {
@@ -119,10 +123,7 @@
 }
 
 .card-descr {
-  border-right: 1px solid $item-border-color;
-  border-bottom: 1px solid $item-border-color;
-  border-left: 1px solid $item-border-color;
-  padding: 20px 24px 20px 24px;
+  padding: 20px 24px;
 }
 
 .card-descr__title {
